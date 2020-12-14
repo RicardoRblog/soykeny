@@ -52,7 +52,7 @@
     text-transform: uppercase;
     letter-spacing: 4.8px;
     text-align: center;
-    transform: translateX(-0%) translateY(400%);
+    transform: translateX(-0%) translateY(40%);
 }
 
 
@@ -67,7 +67,7 @@
     top: 0%;
     left: 0%;
     text-align:center;
-    transform: translateX(-27%) translateY(420%);
+    transform: translateX(-27%) translateY(550%);
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     
@@ -75,7 +75,12 @@
 
 
 
-@media (min-width:560px) {
+
+
+
+
+
+@media (min-width:720px) {
     #banner h2{
     font-size: 35PX;
     letter-spacing: 6.6px;   
@@ -100,14 +105,15 @@
     
 #banner .contenedor-banner p1{
     height: auto;
-    width: 500px;
-    font-size: 10px;
+    width: 640px;
+    
+    font-size: 12px;
     color: black;
     position: absolute;
     top: 0%;
     left: 0%;
     text-align:center;
-    transform: translateX(-23%) translateY(480%);
+    transform: translateX(-33%) translateY(580%);
     border-left: 1px solid grey;
     border-right: 1px solid grey;    
     
@@ -119,7 +125,7 @@
     padding: 15px;
     font-size: 7PX;
     text-transform: uppercase;
-    letter-spacing: 9.8px;
+    letter-spacing: 15px;
     text-align: center;
     transform: translateX(-0%) translateY(400%);
         

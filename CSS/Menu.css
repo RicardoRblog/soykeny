@@ -49,13 +49,13 @@ header label{
 }
 
 
-@media (min-width:700px){
+@media (min-width:720px){
         
     .menu {
         position: static;
         width: auto;
         height: auto;
-        transform: translateY(0%);
+        transform: translatex(-70%);
         float:right;
         display: flex;
         background-color: white;

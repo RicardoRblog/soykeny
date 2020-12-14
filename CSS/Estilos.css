@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url(Menu.css);
 @import url(Banner.css);
-@import url(Nosotros.css);    
+@import url(Nosotros.css);  
+@import url(gsl.css);
 
 * {
     
