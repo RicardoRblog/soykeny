@@ -9,6 +9,7 @@ header label{
     font-size: 26px;
     margin: 10px 0;
     cursor: pointer;
+    color: white;
     
 }
 
@@ -17,8 +18,8 @@ header label{
     top: 50px;
     width: 100%;
     height: 100vh;
-    background: rgba(51,51,51,0.9);
-    transition: all 0.7s;
+    background: rgba(51,51,51,0.95);
+    transition: all 0.5s;
     transform: translatey(-200%);
     
 }
@@ -31,7 +32,7 @@ header label{
     text-decoration: none;
     font-size: 18px;
     color: white;
-    border-bottom: 0.5px solid rgba(255,255,255,0.2);
+    
     
 }
 
@@ -58,9 +59,10 @@ header label{
         transform: translatex(-70%);
         float:right;
         display: flex;
-        background-color: white;
-        border-left: 1px solid #333;
-        border-right: 1px solid #333;
+        background-color:black;
+        background-image: url(../IMG/Fondo.jpg);
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
                 
     }
     
@@ -72,9 +74,10 @@ header label{
     .menu a{
         
         font-size: 16px;
-        padding: 16px 28px;
-        color: black;
+        padding: 18px 25px;
+        color: white;
         display:inline;
+        
     }
     
     

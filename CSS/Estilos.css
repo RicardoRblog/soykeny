@@ -5,7 +5,6 @@
 @import url(gsl.css);
 
 * {
-    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -14,6 +13,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url(../IMG/Fondo.jpg);
+    background-size: 100%;
 }
 
 
@@ -27,7 +28,8 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    
+    background-image: url(../IMG/Fondo.jpg);
+    background-size: 200%;
 }
 
 .contenedor {
@@ -50,6 +52,7 @@ section {
 
 
 img {
+   
     width: 100%;
     height: 100%;
     
@@ -62,30 +65,29 @@ img {
 
 
 .sociales {
-    margin-top: -35px;
+    margin-top: -40px;
     width: 100%;
     text-align: center;
-    font-size: 18px;
-    
-    
+    font-size: 20px;
+    align-items: center;
+    color: white;    
 }
 
 .sociales a{
     display: inline-block;
-    background: #fff;
-    margin: 0 25px;
-    width: 25px;
-    height: 25px;
-    color: black;
+    margin: 0 30px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
     text-decoration: none;
-    
-    
+    border-radius: 25px;
+        
 }
 
 
 .sociales a:hover {
     color: #FAD437;
-    transform: translateY(-3px) scale(1.05);
+    
     
 }
 
@@ -105,11 +107,11 @@ img {
     
     .sociales a{
     display: inline-block;
-    background: #fff;
-    margin: 0px 2px;
+    background-image: url(../IMG/Fondo.jpg);
+    margin: 3px 10px;
     width: 25px;
     height: 25px;
-    color: black;
+    color: white;
     text-decoration: none;
     
     }
