@@ -13,12 +13,12 @@
 
 #Nosotros .contenedor-nosotros {
     height: auto;
-    width: 220px;;
+    width: 250px;;
     position: absolute;
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-40%) translateY(150%);
+    transform: translateX(-35%) translateY(180%);
     padding: 5px;
 
 }
@@ -34,13 +34,13 @@
 @media (min-width:720px) {
     #Nosotros .contenedor-nosotros {
     height: auto;
-    width: 400px;
+    width: 300px;
     
     position: absolute;
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-40%) translateY(330%);
+    transform: translateX(-60%) translateY(380%);
 
 }
 
