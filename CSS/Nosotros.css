@@ -40,12 +40,12 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-34%) translateY(335%);
+    transform: translateX(-34%) translateY(620%);
 
 }
 
 #Nosotros .contenedor-nosotros h3{
-    font-size: 8PX;
+    font-size: 7PX;
     color: white;
     
 }
