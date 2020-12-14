@@ -18,13 +18,13 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-40%) translateY(290%);
+    transform: translateX(-40%) translateY(142%);
     padding: 5px;
 
 }
 
 #Nosotros h3{
-    font-size: 4PX;
+    font-size: 6PX;
     color: white;
     
      
@@ -40,12 +40,12 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-34%) translateY(105%);
+    transform: translateX(-34%) translateY(335%);
 
 }
 
-#Nosotros h3{
-    font-size: 10PX;
+#Nosotros .contenedor-nosotros h3{
+    font-size: 8PX;
     color: white;
     
 }
@@ -60,17 +60,15 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-38%) translateY(435%);
+    transform: translateX(-38%) translateY(800%);
 
 }
 
-}
 
-#Nosotros h3{
-    font-size: 16PX;
+#Nosotros .contenedor-nosotros h3{
+    font-size: 14PX;
     color: white;
-     
-    
+   
     
 }    
     
