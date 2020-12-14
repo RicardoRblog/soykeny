@@ -23,30 +23,30 @@
 
 
 
-#gsl h3{
-    font-size: 8PX;
-    transform: translateX(-0%) translateY(450%);
+#gsl .contenedor-gsl h3 {
+    font-size: 5PX;
+    transform: translateX(-0%) translateY(700%);
     text-align: center;
     
 }
 
 
 
-#gsl p{
+#gsl .contenedor-gsl p {
     width: 350px;
-    font-size: 8PX;
+    font-size: 5PX;
     text-align: center;
-    transform: translateX(0%) translateY(375%);
+    transform: translateX(0%) translateY(775%);
 }
 
 
-#gsl p3 {
+#gsl .contenedor-gsl p3 {
     width: 400px;
     border: 5px;
     font-size: 4px;
     letter-spacing: 8.1px;
     text-align: center;
-    transform: translateX(-100%) translateY(80%);
+    transform: translateX(-100%) translateY(20%);
 }
 
 
@@ -56,9 +56,9 @@
 
 
 
-@media (min-width:720px) {
+@media (min-width:700px) {
 
-#gsl h3{
+#gsl .contenedor-gsl h3{
     font-size: 14PX;
     transform: translateX(-0%) translateY(480%);
     text-align: center;
@@ -67,20 +67,20 @@
 
 
 
-#gsl p{
-    width: 600px;
+#gsl .contenedor-gsl p {
+    width: 650px;
     font-size: 12PX;
     text-align: center;
-    transform: translateX(0%) translateY(475%);
+    transform: translateX(0%) translateY(680%);
 }
 
 
-#gsl p3 {
+#gsl .contenedor-gsl p3 {
     width: 600px;
-    font-size: 7px;
+    font-size: 6.5px;
     letter-spacing: 16.1px;
     text-align: center;
-    transform: translateX(-100%) translateY(10%);
+    transform: translateX(-100%) translateY(5%);
 }
 
 
