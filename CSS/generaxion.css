@@ -24,7 +24,7 @@
     float: right;
     text-align: right;
     font-size: 7px;
-    transform: translateY(-20%);    
+    transform: translateY(-20%) translateX(-5%);    
         
 }
 
@@ -47,9 +47,10 @@
 
 #generaxion .DE7PM {
     position: absolute;
-    top: -165%;
-    left: -296%;
-    transform: translateX(7%);
+    
+    top: -60%;
+    left: -270%;
+    transform: translateX(2%) translateY(-42%); 
 
     
 
