@@ -32,7 +32,7 @@
     position: absolute;
     top: -150%;
     left: -265%;
-        
+    transform: translatex(4%);    
     
 }
 
@@ -41,15 +41,15 @@
     width: 320PX;
     top: -122%;
     left: -78%;
-    transform: translateX(-60%);
+    transform: translateX(-55%);
     
 }
 
 #generaxion .DE7PM {
     position: absolute;
-    top: -150%;
-    left: -255%;
-    
+    top: -165%;
+    left: -296%;
+    transform: translateX(7%);
 
     
 
@@ -57,8 +57,8 @@
 
 #generaxion .PARCEROS {
     position: absolute;
-    top: -150%;
-    left: -259%;
+    top: -144%;
+    left: -242%;
     
 
     
