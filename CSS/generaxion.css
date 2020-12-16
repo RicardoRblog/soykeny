@@ -23,10 +23,10 @@
 }
 
 #generaxion .contenedor-generaxion p {
-    width: 125px;
+    width: 120px;
     font-size: 7PX;
     text-align: right;
-    transform: translateX(201%) translateY(-14%);
+    transform: translateX(212%) translateY(-14%);
 }
 
 #generaxion .contenedor-siete {
@@ -37,7 +37,7 @@
 
 #generaxion .contenedor-siete img {
     width: 400px;
-    
+       
 }
 
 #generaxion .contenedor-viernes {
@@ -59,7 +59,7 @@
     height: 300PX;
     width: 340PX;
     align-items: center;
-    transform: translateX(7%) translateY(-398%);
+    transform: translateX(7%) translateY(-401%);
     
     
 }
