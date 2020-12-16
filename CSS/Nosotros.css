@@ -31,7 +31,7 @@
 }
 
 
-@media (min-width:780px) {
+@media (min-width:700px) {
     #Nosotros .contenedor-nosotros {
     height: auto;
     width: 500px;
@@ -40,7 +40,7 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-37%) translateY(280%);
+    transform: translateX(-32%) translateY(250%);
 
 }
 

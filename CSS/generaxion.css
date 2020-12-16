@@ -65,3 +65,66 @@
     
 
 }
+
+
+
+@media (min-width:700px) {
+    #generaxion p {
+    position: absolute;
+    height: auto;
+    width: 130px;
+    top: 20px;
+        
+        
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    transform: translateY(-35%) translateX(60%);    
+        
+}
+    
+#generaxion .viernes {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    top: 200px;
+    transform: translatex(-30%) translateY(-110%);    
+    
+}
+
+#generaxion .deparceros {
+    position: absolute;
+    width: 500PX;
+    top: -122%;
+    left: -78%;
+   transform: translatex(-74%) translateY(-22%);
+    
+}
+
+#generaxion .DE7PM {
+    position: absolute;
+    height: auto;
+    width: 600px;
+    top: 200px;
+    transform: translatex(-13%) translateY(-110%);    
+    
+
+    
+
+}
+
+#generaxion .PARCEROS {
+    position: absolute;
+    height: auto;
+    width: 680px;
+    top: 200px;
+    transform: translatex(-28%) translateY(-107%); 
+    
+
+    
+
+}    
+    
+    
+    
+}
