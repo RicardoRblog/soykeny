@@ -18,7 +18,7 @@
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-35%) translateY(180%);
+    transform: translateX(-40%) translateY(210%);
     padding: 5px;
 
 }
@@ -31,21 +31,21 @@
 }
 
 
-@media (min-width:720px) {
+@media (min-width:780px) {
     #Nosotros .contenedor-nosotros {
     height: auto;
-    width: 300px;
+    width: 500px;
     
     position: absolute;
     top: 50%;
     left: 50%;
     text-align:left;
-    transform: translateX(-60%) translateY(380%);
+    transform: translateX(-37%) translateY(280%);
 
 }
 
 #Nosotros .contenedor-nosotros h3{
-    font-size: 8PX;
+    font-size: 10PX;
     color: white;
     
 }

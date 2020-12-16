@@ -3,7 +3,8 @@
 @import url(Banner.css);
 @import url(Nosotros.css);  
 @import url(gsl.css);
-
+@import url(generaxion.css)
+;
 * {
     margin: 0px;
     padding: 0px;
