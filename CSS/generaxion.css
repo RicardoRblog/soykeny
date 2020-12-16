@@ -5,13 +5,6 @@
 }
 
 
-#generaxion img {
-    
-    width: 100%;
-    height: 100%;
-    
-}
-
 #generaxion .contenedor-generaxion {
     position: absolute;
     top: 50%;
@@ -24,42 +17,37 @@
 
 #generaxion .contenedor-generaxion p {
     width: 120px;
+    height: 50px;
     font-size: 7PX;
-    text-align: right;
-    transform: translateX(212%) translateY(-14%);
+    float: right;
+    
 }
 
 #generaxion .contenedor-siete {
+    float: right;
+    transform: translateX(-5%) translateY(-83%);
     
-    transform: translateX(-3%) translateY(-85%);
-    
-}
-
-#generaxion .contenedor-siete img {
-    width: 400px;
-       
 }
 
 #generaxion .contenedor-viernes {
-    font-size: 90px;
-    transform: translateX(-0%) translateY(-174%);
-    
+     float: left;
+     height: auto;
+     transform: translateX(-12%) translateY(-183%);
     
 }
 
 #generaxion .contenedor-parceros {
-    height: 300PX;
-    width: 340PX;
-    transform: translateX(1%) translateY(-295%);
+    height: 280PX;
+    width: 316PX;
+    transform: translateX(-12%) translateY(-254.9%);
     
     
 }
 
 #generaxion .contenedor-bloqueparceros {
-    height: 300PX;
-    width: 340PX;
+    
     align-items: center;
-    transform: translateX(7%) translateY(-401%);
+    transform: translateX(0%) translateY(-137%);
     
     
 }
@@ -67,59 +55,5 @@
 
 
 
-
-
-@media (min-width:700px) {
-    #generaxion .contenedor-generaxion {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: black;
-    text-align: right;
-    transform: translateX(-50%) translateY(5%);
-    
-    
-}
-
-#generaxion .contenedor-generaxion p {
-    width: 125px;
-    font-size: 9PX;
-    text-align: right;
-    transform: translateX(440%) translateY(15%);
-}
-
-#generaxion .contenedor-siete {
-    transform: translateX(5%) translateY(-81%);
-    
-}
-
-#generaxion .contenedor-siete img {
-    width: 600px;
-    font-size: 0px;
-}
-
-#generaxion .contenedor-viernes {
-    transform: translateX(-4%) translateY(-158%);
-    
-    
-}
-
-#generaxion .contenedor-parceros {
-    height: 400PX;
-    width: 700PX;
-   
-    transform: translateX(-4%) translateY(-330%);
-    
-    
-}
-
-#generaxion .contenedor-bloqueparceros {
-    height: 580px;
-    width: 680PX;
-    align-items: center;
-    transform: translateX(4%) translateY(-328%);
-    
-    
-}
 
 
