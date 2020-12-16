@@ -1,59 +1,66 @@
 #generaxion{
-    margin-top: 0;
+    margin-top: 0PX;
     position: relative;
-    
 }
 
+
+#generaxion img{
+    width: 100%;
+    height: 100%;
+    
+}
 
 #generaxion .contenedor-generaxion {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    color: black;
+    top: 70%;
+    left: 67%;
+    width: 105px;
+    height: 130px;
+    
+}
+
+
+#generaxion p {
+    float: right;
     text-align: right;
-    transform: translateX(-50%) translateY(5%);
-
+    font-size: 7px;
+    transform: translateY(-20%);    
+        
 }
 
-#generaxion .contenedor-generaxion p {
-    width: 120px;
-    height: 50px;
-    font-size: 7PX;
-    float: right;
-    
-}
-
-#generaxion .contenedor-siete {
-    float: right;
-    transform: translateX(-5%) translateY(-83%);
+#generaxion .viernes {
+    position: absolute;
+    top: -150%;
+    left: -265%;
+        
     
 }
 
-#generaxion .contenedor-viernes {
-     float: left;
-     height: auto;
-     transform: translateX(-12%) translateY(-183%);
+#generaxion .deparceros {
+    position: absolute;
+    width: 320PX;
+    top: -122%;
+    left: -78%;
+    transform: translateX(-60%);
     
 }
 
-#generaxion .contenedor-parceros {
-    height: 280PX;
-    width: 316PX;
-    transform: translateX(-12%) translateY(-254.9%);
+#generaxion .DE7PM {
+    position: absolute;
+    top: -150%;
+    left: -255%;
     
+
     
+
 }
 
-#generaxion .contenedor-bloqueparceros {
+#generaxion .PARCEROS {
+    position: absolute;
+    top: -150%;
+    left: -259%;
     
-    align-items: center;
-    transform: translateX(0%) translateY(-137%);
+
     
-    
+
 }
-
-
-
-
-
-
