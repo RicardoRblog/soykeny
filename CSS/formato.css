@@ -1,0 +1,67 @@
+#informacion {
+    margin-top: 0PX;
+    position: relative;
+}
+
+
+.datos-dentro img {
+    position: absolute;
+    top: 0%;
+    
+    
+}
+
+
+
+.datos-dentro p{
+    position: absolute;
+    color: black;
+    width: 120px;
+    font-size: 6px;
+    text-align: center;
+    top: 48%;
+    left: 35%;
+    
+}
+
+
+.datos-dentro h4{
+    position: absolute;
+    color: black;
+    width: 220px;
+    font-size: 15px;
+    text-align: center;
+    top: 35%;
+    left: 20%;
+    
+    
+}
+
+.datos-dentro f {
+    color: rgba(16, 193, 193, 0.77);
+    
+    
+}
+
+.datos-dentro h5{
+    position: absolute;
+    color: black;
+    width: 220px;
+    font-size: 5px;
+    letter-spacing: 6px;
+    text-align: center;
+    top: 84.9%;
+    left: 20%;
+}
+
+.datos-dentro p5{
+    position: absolute;
+    color: black;
+    width: 220px;
+    font-size: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    top: 87%;
+    left: 20%;
+}
+
