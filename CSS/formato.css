@@ -38,30 +38,33 @@
 }
 
 .datos-dentro f {
-    color: rgba(16, 193, 193, 0.77);
+    color: rgba(32, 157, 157, 0.65);
     
     
 }
 
 .datos-dentro h5{
     position: absolute;
+    font-family: 'Rajdhani', sans-serif;
     color: black;
-    width: 220px;
-    font-size: 5px;
-    letter-spacing: 6px;
+    width: 300px;
+    font-size: 4px;
+    letter-spacing: 8px;
     text-align: center;
     top: 84.9%;
-    left: 20%;
+    left: 10%;
 }
 
 .datos-dentro p5{
     position: absolute;
+    font-family: 'Rajdhani', sans-serif;
     color: black;
     width: 220px;
     font-size: 5px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-align: center;
-    top: 87%;
+    top: 88%;
     left: 20%;
 }
+
 
