@@ -21,6 +21,7 @@
 
 
 #generaxion p {
+    font-family: 'Abel', sans-serif;
     float: right;
     text-align: right;
     font-size: 7px;
@@ -74,39 +75,37 @@
     height: auto;
     width: 130px;
     top: 20px;
-        
-        
     float: right;
     text-align: right;
     font-size: 10px;
-    transform: translateY(-35%) translateX(60%);    
+    transform: translateY(-35%) translateX(38%);    
         
 }
     
 #generaxion .viernes {
     position: absolute;
     height: auto;
-    width: 600px;
+    width: 800px;
     top: 200px;
-    transform: translatex(-30%) translateY(-110%);    
+    transform: translatex(-30%) translateY(-101%);    
     
 }
 
 #generaxion .deparceros {
     position: absolute;
-    width: 500PX;
+    width: 600PX;
     top: -122%;
-    left: -78%;
-   transform: translatex(-74%) translateY(-22%);
+    left: -70%;
+   transform: translatex(-71.5%) translateY(-30%);
     
 }
 
 #generaxion .DE7PM {
     position: absolute;
     height: auto;
-    width: 600px;
-    top: 200px;
-    transform: translatex(-13%) translateY(-110%);    
+    width: 800px;
+    top: 250px;
+    transform: translatex(-28%) translateY(-110%);    
     
 
     

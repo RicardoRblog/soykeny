@@ -1,74 +1,69 @@
 #Nosotros {
-    margin-top: 0;
-    position: relative;
-    
-}
-
-
-#Nosotros img {
-    width: 100%;
-    height: 100%;
-    
-}
-
-#Nosotros .contenedor-nosotros {
+    width: auto;
     height: auto;
-    width: 250px;;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align:left;
-    transform: translateX(-35%) translateY(210%);
-    padding: 5px;
-
+    margin-top: 0px;
+    position: relative;
+    'background: red;
 }
 
-#Nosotros h3{
-    font-size: 6PX;
+
+
+
+
+#iglesia {
+    position: absolute;
+    margin-top: 5px;
+    top: -5px;
+    
+}
+
+#horarios {
+    position: absolute;
+    margin-top: 5px;
+    top: -285px;
+    
+    
+}
+
+#Nosotros .contenedor-nosotros h3{
+    position: absolute;
+    transform: translateX(48%);
+    max-width: 220px;
+    margin-top: -60px;
+    font-size: 6px;
+    top: -12x;
     color: white;
     
-     
+    
 }
+
 
 
 @media (min-width:700px) {
-    #Nosotros .contenedor-nosotros {
-    height: auto;
-    width: 500px;
     
+#iglesia {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align:left;
-    transform: translateX(-32%) translateY(250%);
+    margin-top: 5px;
+    top: -5px;
+    
+}
 
+#horarios {
+    position: absolute;
+    top: -550px;
+        
+    
 }
 
 #Nosotros .contenedor-nosotros h3{
-    font-size: 10PX;
-    color: white;
-    
-}
-    
-    
-    
-@media (min-width:1024px) {
-    #Nosotros .contenedor-nosotros {
-    height: auto;
-    width: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align:left;
-    transform: translateX(-38%) translateY(800%);
-
+    transform: translateX(48%);
+    max-width: 420px;
+    margin-top: -100px;
+    font-size: 8px;
+    top: -12x;
+    color: white;
+    
+    
 }
 
-
-#Nosotros .contenedor-nosotros h3{
-    font-size: 14PX;
-    color: white;
-   
-    
-}    
-    
