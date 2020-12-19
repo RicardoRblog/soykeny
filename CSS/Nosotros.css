@@ -3,7 +3,7 @@
     height: auto;
     margin-top: 0px;
     position: relative;
-    'background: red;
+   
 }
 
 
@@ -17,13 +17,21 @@
     
 }
 
-#horarios {
+#horarios .img-hora{
     position: absolute;
-    margin-top: 5px;
-    top: -285px;
-    
+    margin-top:0px; 
+    top: 2px;
     
 }
+
+
+#horarios .img-dia {
+    position: absolute;
+    margin-top: px;
+    top: 0px;
+    
+}
+
 
 #Nosotros .contenedor-nosotros h3{
     position: absolute;
@@ -45,13 +53,13 @@
     position: absolute;
     margin-top: 5px;
     top: -5px;
-    
+   
 }
 
-#horarios {
+#horarios .img-dia{
     position: absolute;
-    top: -550px;
-        
+    top: 0px;
+    
     
 }
 
@@ -63,7 +71,7 @@
     font-size: 8px;
     top: -12x;
     color: white;
-    
+   
     
 }
 

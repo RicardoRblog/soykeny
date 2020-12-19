@@ -51,7 +51,7 @@
     font-size: 4px;
     letter-spacing: 8px;
     text-align: center;
-    top: 84.9%;
+    top: 83.9%;
     left: 10%;
 }
 
@@ -63,7 +63,7 @@
     font-size: 5px;
     letter-spacing: 4px;
     text-align: center;
-    top: 88%;
+    top: 98%;
     left: 20%;
 }
 
@@ -84,17 +84,18 @@
 
 #direccion  h5 {
     position: absolute;
-    color: black;
-    transform: translateX(25%) translateY(-780%);
+    color: white;
+    transform: translateX(25%) translateY(-490%);
     letter-spacing: 8px;
     font-size: 4px;
+    
     
 }
 
 #direccion  p5 {
     position: absolute;
-    color: black;
-    transform: translateX(600%) translateY(-840%);
+    color: white;
+    transform: translateX(600%) translateY(-410%);
     letter-spacing: 4px;
     font-size: 3px;
 
@@ -116,7 +117,11 @@
 #mapa{
     position: absolute;
     top: 45%;
+    justify-items: center;
     left: 5%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
     border: 1.5px solid rgba(32, 157, 157, 0.65);
     
 }
@@ -127,4 +132,87 @@
     text-transform: uppercase;
     text-align: center;
     color: black;    
+}
+
+
+
+
+
+
+@media (min-width:700px) {
+    .datos-dentro img {
+        position: absolute;
+            
+    }
+    
+    .datos-dentro h4{
+    position: absolute;
+    color: black;
+    width: 650px;
+    font-size: 30px;
+    text-align: center;
+    top: 35%;
+    left: 5%;
+    
+    
+    }
+    
+    .datos-dentro p{
+    position: absolute;
+    color: black;
+    width: 320px;
+    font-size: 10px;
+    text-align: center;
+    top: 40%;
+    left: 28%;
+    
+}
+    
+    #mapa{
+    position: absolute;
+    align-items: center;
+    top: 55%;
+    left: 10%;
+    width: 350pX;
+    height: 200px;
+    border: 1.5px solid rgba(32, 157, 157, 0.65);
+    
+}
+    #direccion  a {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    text-decoration:underline;
+    font-weight: bold;
+    color: rgba(32, 157, 157, 0.65);
+    transform: translateX(135%) translateY(-300%);
+    top: 65%;
+    font-size: 20px;
+    
+
+}
+    
+    #direccion  h5 {
+    position: absolute;
+    
+    color: white;
+    font-size: 6px;
+    top: 100%;    
+    left:-2%;
+    letter-spacing: 18px;
+    
+}
+
+#direccion  p5 {
+    position: absolute;
+    color: white;
+    top: 102%;
+    left: 12%;
+    font-size: 7px;
+
+}
+    
+    
+    
+    
 }
