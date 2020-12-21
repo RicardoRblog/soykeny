@@ -73,7 +73,7 @@
     position: absolute;
     height: auto;
     width: 130px;
-    top: 20px;
+    top: 43px;
     float: right;
     text-align: right;
     font-size: 10px;
@@ -84,7 +84,7 @@
 #generaxion .viernes {
     position: absolute;
     height: auto;
-    width: 800px;
+    width: 720px;
     top: 200px;
     transform: translatex(-30%) translateY(-101%);    
     
@@ -93,8 +93,8 @@
 #generaxion .deparceros {
     position: absolute;
     width: 600PX;
-    top: -122%;
-    left: -70%;
+    top: -110%;
+    left: -54%;
    transform: translatex(-71.5%) translateY(-30%);
     
 }
@@ -102,7 +102,7 @@
 #generaxion .DE7PM {
     position: absolute;
     height: auto;
-    width: 800px;
+    width: 720px;
     top: 250px;
     transform: translatex(-28%) translateY(-110%);    
     

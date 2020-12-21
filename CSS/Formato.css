@@ -1,0 +1,292 @@
+#info {
+    margin-top: 0PX;
+    position: relative;
+}    
+    
+
+#info .informacion {
+    
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: -250px;
+    background: red;
+}
+
+.informacion h2{
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 16px;
+    
+}
+
+.informacion h3 {
+    text-align: center;
+    transform: translateY(-215%);
+    font-size: 8px;
+    letter-spacing: 16px;
+}
+
+.informacion N{
+    color: #2ac7c7;
+}
+
+
+.informacion p{
+    font-size: 8px;
+    width: 150px;
+    margin-left: 28%;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.informacion h4{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: -2%;
+    
+}
+
+
+.informacion h1{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 17.5%;
+    margin-left: 3%;
+    
+}
+
+
+
+.mapa {
+    position: relative;
+    transform: translateY(390%) translateX(13%);
+    height: 15px;
+    width: 110px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+}
+
+.icon-gps {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -38%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 35px;
+   
+    
+}
+
+
+.oracion{
+    position: relative;
+    transform: translateY(320%) translateX(195%);
+    height: 15px;
+    width: 126px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+    
+}
+
+.icon-oracion {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -33%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 38px;
+    
+}
+
+
+.oracion h1{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 8%;
+    
+}
+
+
+.derechos {
+    position: relative;
+    color: white;
+    width: 380px;
+    margin-top: 2%;
+    transform: translateY(625%) translateX(10%);
+    text-align: center;
+        
+}
+
+.derechos h5 {
+    position: absolute;
+    font-size: 5px;
+    letter-spacing: 9px;
+    margin-top: 30%;
+    
+}
+
+.derechos p5 {
+    position: absolute;
+    font-size: 5px;
+    letter-spacing: 10px;
+    margin-top: 33%;
+    margin-left: -15%;
+    
+}
+
+
+
+
+@media (min-width:700px){
+    .informacion h2{
+    position: absolute;
+    transform: translateX(100%);
+    text-align: center;
+    top: 25%;    
+    font-size: 14px;
+    letter-spacing: 16px;
+    
+}
+
+.informacion h3 {
+    position: absolute;
+    text-align: center;
+    transform: translateX(100%);
+    margin-top: -27%;
+    font-size: 14px;
+    letter-spacing: 16px;
+}
+
+.informacion p{
+    position: absolute;
+    font-size: 12px;
+    width: 450px;
+    transform: translateY(-520%);
+    margin-top: 10%;
+    margin-left: 18%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.informacion h4{
+    position: absolute;
+    transform: translateX(135%);
+    font-size: 18px;
+    text-align: center;
+    margin-top: -18%;
+    margin-left: -2%;
+    
+}
+
+.informacion h1{
+    position: absolute;
+    transform: translateX(15%);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 8%;
+    
+}
+
+
+
+.mapa {
+    position: relative;
+    transform: translateY(380%) translateX(50%);
+    height: 18px;
+    width: 130px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+}
+
+.icon-gps {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -55%;
+    margin-bottom: 0%;
+    margin-left: 19%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 60px;
+   
+    
+}    
+    
+.oracion{
+    position: relative;
+    transform: translateY(338%) translateX(345%);
+    height: 18px;
+    width: 146px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+    
+}
+
+.icon-oracion {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -60%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 78px;
+    
+}
+
+
+.oracion h1{
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 14%;
+    
+}
+
+    
+.derechos {
+    position: relative;
+    color: white;
+    width: 650px;
+    margin-top: 0%;
+    transform: translateY(5%) translateX(20%);
+    text-align: center;
+        
+}
+
+.derechos h5 {
+    position: absolute;
+    font-size: 7px;
+    transform: translateY(100%);
+    letter-spacing: 15px;
+    margin-top: 23%;
+    
+}
+
+.derechos p5 {
+    position: absolute;
+    font-size: 5px;
+    letter-spacing: 10px;
+    transform: translateY(2620%);
+    margin-top: 3%;
+    margin-left: -20%;
+    
+}
+    
+    
+    
+}
