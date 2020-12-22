@@ -132,3 +132,80 @@ img {
     
     
 }
+
+
+
+
+@media (min-width:1024px){
+    
+    .sociales {
+        display: flex;
+        margin-top: %;
+        margin-left: -1%;
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        
+        
+    }
+    
+    
+    .sociales a{
+    display: inline-block;
+    background-image: url(../IMG/Fondo.jpg);
+    margin: 3px 10px;
+   
+    width: 25px;
+    height: 28px;
+    color: white;
+    text-decoration: none;
+    
+    }
+    
+    
+    
+    .contenedor {
+        width: 1024px;
+    }
+    
+    
+    
+}
+
+
+
+@media (min-width:1400px){
+    
+    .sociales {
+        display: flex;
+        margin-top: %;
+        margin-left: -10%;
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        
+        
+    }
+    
+    
+    .sociales a{
+    display: inline-block;
+    background-image: url(../IMG/Fondo.jpg);
+    margin: 3px 10px;
+   
+    width: 25px;
+    height: 28px;
+    color: white;
+    text-decoration: none;
+    
+    }
+    
+    
+    
+    .contenedor {
+        width: 1024px;
+    }
+    
+    
+    
+}

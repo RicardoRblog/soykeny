@@ -137,3 +137,116 @@
     transform: translateX(-0%) translateY(400%);
         
     }
+
+}
+
+
+
+
+@media (min-width:1024px) {
+    #banner h2{
+    position: absolute;
+    width: 800px;
+    margin-left: -70%;
+    margin-top: -0%;
+    font-size: 60PX;
+    letter-spacing: 7.6px;   
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+    
+   #banner p{
+    font-size: 14PX;
+    text-transform: uppercase;
+    letter-spacing: 8.6px;
+    text-align: center;
+    transform: translateX(0.5%) translateY(450%);
+}
+    
+#banner .contenedor-banner p1{
+    height: auto;
+    width: 1000px;
+    
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    text-align:center;
+    transform: translateX(-33%) translateY(580%);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;    
+    
+    
+    
+}
+    
+    #banner .contenedor-banner c{
+    padding: 15px;
+    font-size: 10PX;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    text-align: center;
+    transform: translateX(-0%) translateY(400%);
+        
+    }
+}
+
+
+
+
+
+@media (min-width:1400px) {
+    #banner h2{
+    position: absolute;
+    width: 1000px;
+    margin-left: -60%;
+    margin-top: 0%;
+    font-size: 80PX;
+    letter-spacing: 10.6px;   
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+
+    
+   #banner p{
+    font-size: 18PX;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    transform: translateX(2%) translateY(490%);
+}
+    
+#banner .contenedor-banner p1{
+    height: auto;
+    width: 1300px;
+    
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    margin-top: 20%;
+    left: 0%;
+    text-align:center;
+    transform: translateX(-33%) translateY(580%);
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;    
+    
+    
+    
+}
+    
+    #banner .contenedor-banner c{
+    padding: 15px;
+    font-size: 14PX;
+    text-transform: uppercase;
+    letter-spacing: 35px;
+    text-align: center;
+    transform: translateX(-0%) translateY(400%);
+        
+    }
+}

@@ -83,3 +83,38 @@ header label{
     
     
 }
+
+
+@media (min-width:1024px){
+        
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+        margin-top: 0%;
+        margin-right: -45%;
+        
+        'background-color:black;
+        background-image: url(../IMG/'Fondo.jpg);
+        border-left: 0px solid black;
+        border-right: 0px solid black;
+                
+    }
+    
+    header label{
+    display: none;
+    
+}
+    
+    .menu a{
+        
+        font-size: 16px;
+        padding: 25px 45px;
+        color: white;
+        display:inline;
+        
+    }
+    
+    
+    
+}

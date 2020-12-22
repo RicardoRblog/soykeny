@@ -126,3 +126,132 @@
     
     
 }
+
+
+
+
+
+@media (min-width:1024px) {
+    #generaxion p {
+    position: absolute;
+    height: auto;
+    margin-left: 50%;
+    width: 330px;
+    top: 43px;
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    transform: translateY(-35%) translateX(0%);    
+        
+}
+    
+#generaxion .viernes {
+    position: absolute;
+    margin-left: -300%;
+    height: auto;
+    width: 1200px;
+    transform: translatex(-22%) translateY(-88%);    
+    
+}
+
+#generaxion .deparceros {
+    position: absolute;
+    width: 1100PX;
+    top: -110%;
+    left: -314%;
+   transform: translatex(-47.2%) translateY(-48%);
+    
+}
+
+#generaxion .DE7PM {
+    position: absolute;
+    height: auto;
+    width: 1200px;
+    margin-top: 85px;
+    transform: translatex(-40%) translateY(-105%);    
+    
+
+    
+
+}
+
+#generaxion .PARCEROS {
+    position: absolute;
+    margin-top: 100%;
+    height: auto;
+    width: 1000px;
+    top: 200px;
+    transform: translatex(-45%) translateY(-101%); 
+    
+
+    
+
+}    
+    
+    
+    
+}
+
+
+
+
+@media (min-width:1400px) {
+    #generaxion p {
+    position: absolute;
+    height: auto;
+    width: 330px;
+    top: 43px;
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    transform: translateY(-50%) translateX(5%);    
+        
+}
+    
+#generaxion .viernes {
+    position: absolute;
+    height: auto;
+    width: 1400px;
+    margin-top: 100px;
+    transform: translatex(-30%) translateY(-101%);    
+    
+}
+
+#generaxion .deparceros {
+    position: absolute;
+    width: 1200PX;
+    margin-top: -180%;
+    top: -110%;
+    left: -54%;
+   transform: translatex(-78.5%) translateY(-35%);
+    
+}
+
+#generaxion .DE7PM {
+    position: absolute;
+    height: auto;
+    width: 1600px;
+    
+    transform: translatex(-48%) translateY(-100%);    
+    
+
+    
+
+}
+
+#generaxion .PARCEROS {
+    position: absolute;
+    height: auto;
+    margin-top: 180%;
+    width: 1300px;
+    top: 200px;
+    transform: translatex(-52%) translateY(-100%); 
+    
+
+    
+
+}    
+    
+    
+    
+}

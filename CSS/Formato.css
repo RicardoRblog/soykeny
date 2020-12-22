@@ -290,3 +290,307 @@
     
     
 }
+
+
+
+
+
+@media (min-width:1024Px){
+    .informacion h2{
+    position: absolute;
+    transform: translateX(100%);
+    text-align: center;
+    margin-left: 10%;
+    top: 25%;    
+    font-size: 20px;
+    letter-spacing: 20px;
+    
+}
+
+.informacion h3 {
+    position: absolute;
+    text-align: center;
+    transform: translateX(100%);
+    margin-top: -38%;
+    margin-left: 10%;
+    font-size: 20px;
+    letter-spacing: 20px;
+}
+
+.informacion p{
+    position: absolute;
+    font-size: 28px;
+    width: 1000px;
+    transform: translateY(-520%);
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.informacion h4{
+    position: absolute;
+    transform: translateX(13%);
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: -25%;
+    margin-left: 22%;
+    
+}
+
+.informacion h1{
+    position: absolute;
+    transform: translateX(15%);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 6%;
+    
+}
+
+
+
+.mapa {
+    position: relative;
+    transform: translateY(2%) translateX(40%);
+    height: 35px;
+    width: 200px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+}
+
+.icon-gps {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -55%;
+    margin-bottom: 0%;
+    margin-left: 19%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 90px;
+   
+    
+}    
+    
+.oracion{
+    position: relative;
+    transform: translateY(-95%) translateX(345%);
+    height: 35px;
+    width: 246px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+    
+}
+
+.icon-oracion {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -37%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 90px;
+    
+}
+
+
+.oracion h1{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-left: 14%;
+    
+}
+
+    
+.derechos {
+    position: relative;
+    color: white;
+    width: 1000px;
+    margin-top: 5%;
+    transform: translateY(5%) translateX(20%);
+    text-align: center;
+        
+}
+
+.derechos h5 {
+    position: absolute;
+    font-size: 8px;
+    transform: translateY(-1500%);
+    
+    letter-spacing: 26px;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.derechos p5 {
+    position: absolute;
+    font-size: 8px;
+    letter-spacing: 10px;
+    transform: translateY(1900%);
+    margin-top: -12%;
+    margin-left: -15%;
+    
+}
+    
+    
+    
+}
+
+
+
+
+
+@media (min-width:1400Px){
+    .informacion h2{
+    position: absolute;
+    transform: translateX(100%);
+    text-align: center;
+    margin-left: 20%;
+    top: 25%;    
+    font-size: 24px;
+    letter-spacing: 20px;
+    
+}
+
+.informacion h3 {
+    position: absolute;
+    text-align: center;
+    transform: translateX(100%);
+    margin-top: -48%;
+    margin-left: 20%;
+    font-size: 24px;
+    letter-spacing: 20px;
+}
+
+.informacion p{
+    position: absolute;
+    font-size: 28px;
+    width: 1000px;
+    transform: translateY(-920%);
+    margin-top: 10%;
+    margin-left: 22%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.informacion h4{
+    position: absolute;
+    transform: translateX(13%);
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: -35%;
+    margin-left: 30%;
+    
+}
+
+.informacion h1{
+    position: absolute;
+    transform: translateX(45%);
+    font-size: 20px;
+    text-align: center;
+    margin-top: -6.5%;
+    margin-left: 16.5%;
+    
+}
+
+
+
+.mapa {
+    position: relative;
+    transform: translateY(-400%) translateX(180%);
+    height: 35px;
+    width: 200px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+}
+
+.icon-gps {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -70%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 120px;
+   
+    
+}    
+    
+.oracion{
+    position: relative;
+    transform: translateY(-190%) translateX(345%);
+    margin-top: -5.8%;
+    margin-left: 30%;
+    height: 35px;
+    width: 246px;
+    background: rgba(201, 187, 187, 0.28);
+    border-radius: 5px;
+    
+    
+}
+
+.icon-oracion {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    margin-top: -58%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    color: rgba(118, 118, 118, 0.71);
+    font-size: 140px;
+    
+}
+
+
+.oracion h1{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-left: 14%;
+    
+}
+
+    
+.derechos {
+    position: relative;
+    color: white;
+    width: 1400px;
+    margin-top: 5%;
+    transform: translateY(5%) translateX(20%);
+    text-align: center;
+        
+}
+
+.derechos h5 {
+    position: absolute;
+    width: auto;
+    font-size: 8px;
+    transform: translateY(-1850%);
+    
+    letter-spacing: 30px;
+    margin-left: 16.5%;
+}
+
+.derechos p5 {
+    position: absolute;
+    font-size: 8px;
+    letter-spacing: 5px;
+    transform: translateY(1900%);
+    margin-top: -5%;
+    margin-left: -7%;
+    
+}
+    
+    
+    
+}
