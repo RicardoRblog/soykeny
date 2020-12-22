@@ -372,7 +372,22 @@
     font-size: 90px;
    
     
-}    
+}   
+    
+    
+    .mapa:hover{
+        background: rgba(104, 225, 240, 0.3);
+        cursor: pointer;
+    }    
+    
+    .icon-gps:hover{
+        color: rgba(104, 225, 240, 0.6);
+        
+    }
+    
+     
+    
+    
     
 .oracion{
     position: relative;
@@ -398,6 +413,17 @@
 }
 
 
+     .oracion:hover{
+        background: rgba(104, 225, 240, 0.3);
+        cursor: pointer;
+    }    
+    
+    .icon-oracion:hover{
+        color: rgba(104, 225, 240, 0.6);
+        
+    }
+
+    
 .oracion h1{
     position: absolute;
     font-size: 20px;
@@ -462,7 +488,7 @@
     position: absolute;
     text-align: center;
     transform: translateX(100%);
-    margin-top: -48%;
+    margin-top: -50%;
     margin-left: 20%;
     font-size: 24px;
     letter-spacing: 20px;
@@ -497,7 +523,7 @@
     text-align: center;
     margin-top: -6.5%;
     margin-left: 16.5%;
-    
+    color: black;
 }
 
 
@@ -524,6 +550,18 @@
    
     
 }    
+    
+    .mapa:hover{
+        background: rgba(104, 225, 240, 0.3);
+        cursor: pointer;
+    }    
+    
+    .icon-gps:hover{
+        color: rgba(104, 225, 240, 0.6);
+        
+    }
+    
+ 
     
 .oracion{
     position: relative;
@@ -561,6 +599,17 @@
 }
 
     
+    .oracion:hover{
+        background: rgba(104, 225, 240, 0.3);
+        cursor: pointer;
+    }    
+    
+    .icon-oracion:hover{
+        color: rgba(104, 225, 240, 0.6);
+        
+    }
+    
+  
 .derechos {
     position: relative;
     color: white;
