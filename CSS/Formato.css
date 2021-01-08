@@ -1,14 +1,11 @@
 #info {
     margin-top: 0;
+    position: relative;
+    justify-content: center;
+    
+
 }    
     
-
-.informacion{
-    position: relative;
-    margin-top: 0;
-    
-}
-
 .informacion h2{
     position: absolute;
     color: black;
@@ -17,7 +14,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
-    margin-top: -65%;
+    margin-top: -30%;
     
 }
 .informacion h3{
@@ -28,7 +25,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
-    margin-top: -62%;
+    margin-top: -27%;
     
 }
 
@@ -46,7 +43,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
-    margin-top: -50%;
+    margin-top: -15%;
     
 }
 
@@ -59,35 +56,42 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
-    margin-top: -41%;
+    margin-top: -7%;
     
 }
 
-#mapa {
-    position: relative;
-    margin-top: 0;
-    
-}
+
 
 .icon-gps {
     position: absolute;
-    margin-top: -33%;
-    left: 15%;
-    font-size: 27px;
+    margin-top: 8%;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(230%) translateY(-50%);
+    text-align: center;
     text-decoration: none;
-    color: rgba(8, 208, 208, 0.95);
+    color: #888585;
+    
     
 }
 
 #mapa h1{
     position: absolute;
     color: black;
-    margin-top: -25.5%;
-    left: 11%;
+    margin-top: 14%;
     font-size: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(120%) translateY(-50%);
+    text-align: center;
+    
+    
+    
 }
 
 #mapa h1:hover{
+    cursor: pointer;
     font-weight: bold;
     
 }
@@ -97,27 +101,28 @@
 
 .icon-oracion {
     position: absolute;
-    margin-top: -33.5%;
-    right: 15%;
-    font-size: 35px;
+    top: 50%;
+    left: 15%;
+    margin-top: 5%;
+    font-size: 27px;
     text-decoration: none;
-    color: rgba(8, 208, 208, 0.85);
-    
+    color: #888585;
+    justify-content: center;
 }
 
 #oracion h2{
     position: absolute;
     color: black;
     margin-top: -25%;
-    right: 11%;
+    left: 11%;
     font-size: 10px;
     
 }
 #oracion h2:hover{
+    cursor: pointer;
     font-weight: bold;
     
 }
-
 
 .derechos{
     position: absolute;
@@ -163,10 +168,14 @@
 
 
 
-
-
-
 @media (min-width:600px){
+    
+    #info{
+        position: absolute;
+        
+    }
+    
+    
     .informacion h2 {
         font-size: 18px;
         
@@ -196,7 +205,7 @@
     }
     
     .icon-gps{
-        font-size: 40px;
+        font-size: 44px;
         
     }
     .icon-oracion{
@@ -219,3 +228,14 @@
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+

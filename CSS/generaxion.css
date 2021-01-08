@@ -1,4 +1,4 @@
-#generaxion{
+#generaxion {
     margin-top: 0;
     position: relative;
     justify-content: center;
@@ -11,44 +11,57 @@
     color: black;
     text-align: right;
     font-size: 7px;
+    margin: 0 auto;
     width: 110px;
     top: 82%;
     left: 83%;
-    transform: translateX(-50%)translateY(-50%);
+    margin-top: -3.5%;
+    transform: translateX(-50%) translateY(-50%);
     
     
 }
 
 #generaxion .viernes{
-    position: absolute;
+    
+    top:50%;
+    left: 50%;
     margin-top: -70%;
+    transform: translateX(0%) translateY(-5%);
     
 }
 
 #generaxion .deparceros{
-    position: absolute;
-    margin-top: -70%;
     
+    top: 50%;
+    left: 50%;
+    margin-top: -70%;
+    transform: translateX(0%) translateY(-12%);
     
 }
 
 #generaxion .DE7PM {
-    position: absolute;
-    margin-top: -70%;
     
+    top: 50%;
+    left: 50%;
+    margin-top: -70%;
+    transform: translateX(0%) translateY(-20%);
+   
 }
 
 #generaxion .PARCEROS {
-    position: absolute;
-    margin-top: -73%;
+     margin-top: -92.5%;
     
 }
+
+
 
 
 @media (min-width:600px){
     #generaxion p{
+        position: absolute;
         font-size: 12px;
-        width: 180px;
+        width: 190px;
+        
         
     }
         

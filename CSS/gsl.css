@@ -26,10 +26,11 @@
 .contenedor-gsl h3{
     position: absolute;
     color: white;
+    width: 80%;
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-380%);
+    transform: translateX(-50%) translateY(-390%);
     font-size: 8px;
     
 }
@@ -37,12 +38,12 @@
 
 .contenedor-gsl p3{
     position: absolute;
-    width: 350px;
+    width: 90%;
     color: white;
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(-190%);
     font-size: 5px;
     letter-spacing: 8px;
     
