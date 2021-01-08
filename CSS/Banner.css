@@ -23,26 +23,26 @@
 
 .contenedor-banner h2{
     position: absolute;
-    font-family: "Source Sans Pro",sans-serif;
+    font-family: "Century Gothic", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2.9px;
+    letter-spacing: 5px;
     top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contenedor-banner b{
-    color: #ffff2d;
+    color: #ffc000;
     
 }
 .contenedor-banner p{
     position: absolute;
-    
+    font-family: "Century Gothic", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.1px;
     top: 94%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -89,18 +89,18 @@
     
  .contenedor-banner p{
     position: absolute;
-    margin-top: -21%;
+    margin-top: -21.5%;
     font-size: 12px;
 }    
     
 .contenedor-banner p1{
     position: absolute;
-    width: 550px;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
     margin-top: -10%;
-    font-size: 12px;
+    font-size: 18px;
     
     
     
@@ -108,11 +108,51 @@
 
 .contenedor-banner c{
    
-    letter-spacing: 12px;
-    font-size: 8px;
+    letter-spacing: 14px;
+    font-size: 10px;
         
     }
 
     
 }
 
+@media (min-width:1024px){
+    
+      .contenedor-banner h2{
+    position: absolute;
+    margin-top: -25%;   
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+    
+ .contenedor-banner p{
+    position: absolute;
+    margin-top: -22%;
+    font-size: 21px;
+     letter-spacing: 3px;
+}    
+    
+.contenedor-banner p1{
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: -10%;
+    font-size: 18px;
+    
+    
+    
+    }
+
+.contenedor-banner c{
+   
+    letter-spacing: 20px;
+    font-size: 12px;
+        
+    }
+
+    
+}
+    
+}

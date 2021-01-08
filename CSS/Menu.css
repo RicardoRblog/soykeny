@@ -40,7 +40,7 @@ header label{
 .menu a:hover {
     color:#FAD437;
     font-weight: bold;
-    transform: translateY(-2px) scale(1.01);
+    
 
 }
 
@@ -59,17 +59,50 @@ header label{
     
     .menu {
         position: absolute;
+        justify-content: center;
         transform: translateY(0%);
         display: flex;
         top: 1%;
-        height: auto;
-        width: auto;
+        height: 35px;
+        width: 80%;
         background: none;
         left: 4%;
+        
+        
     }
     
     .menu a{
-        font-size: 14px;
+        font-size: 16px;
+        
+    }
+    
+    
+}
+
+
+@media (min-width:1024px) {
+    header label{        
+        display: none;
+    }
+    
+    .menu {
+        position: absolute;
+        justify-content: center;
+        width: 50%;    
+        transform: translateX(50%);
+        background: none;
+        left: 4%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        height: 35px;
+        
+    }
+    
+    .menu a{
+        display: inline-block;
+        justify-content: center;
+        width: 70%;
+        font-size: 16px;
         
     }
     

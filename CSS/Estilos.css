@@ -92,7 +92,7 @@ img {
 
 .sociales a{
     display: inline-block;
-    margin: 1px 18px;
+    margin: 3px 8px;
     width: 35px;
     height: 35px;
     color: #fff;
@@ -129,6 +129,30 @@ img {
     .sociales a{
     height: 30px;
     float: right;
+    width: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+           
+    }
+    
+}
+
+
+
+
+@media (min-width:1024px) {
+    
+     
+    .sociales {
+        
+        padding: 5px;
+        margin-top: 2px;
+        
+    }
+        
+    .sociales a{
+    transform: translateX(-300%);
     width: auto;
     color: #fff;
     text-decoration: none;
