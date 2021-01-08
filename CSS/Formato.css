@@ -66,7 +66,7 @@
 .mapa a{
     position: absolute;
     color: rgba(152, 152, 152, 0.78);
-    font-size: 8px;
+    font-size: 7px;
     text-decoration: none;
     width: 120px;
     text-align: center;
@@ -82,7 +82,7 @@
 .oracion a{
     position: absolute;
     color: rgba(152, 152, 152, 0.78);
-    font-size: 8px;
+    font-size: 7px;
     text-decoration: none;
     width: 120px;
     text-align: center;
@@ -131,13 +131,15 @@
 .direccion{
     position: relative;
     color: white;
-    margin-top: -3%;
+    margin-top: -4%;
     left: 50%;
-    transform: translateX(-50%)translateY(-60%);
-    font-size: 8px;
+    transform: translateX(-50%)translateY(-50%);
+    font-size: 6px;
     letter-spacing: 2px;
     width: 350px;
     text-align: center;
+    
+    
 }
 
 
@@ -177,7 +179,7 @@
     }
     .mapa a:hover{
     cursor: pointer;
-    font-weight: bold;
+    color: rgba(245, 190, 39, 0.86);
     
     }
     
@@ -190,14 +192,14 @@
     }
     #oracion a:hover{
     cursor: pointer;
-    font-weight: bold;
-    
+    color: rgba(245, 190, 39, 0.86);
     }
     
     
     
     .derechos h5{
         font-size: 8px;
+        text-align: center;
         letter-spacing: 9px;
         transform: translateY(50%);
         
@@ -207,8 +209,85 @@
         
     }
     .direccion {
+        
         font-size: 10px;
+        
     }
     
 }
 
+
+
+
+@media (min-width:1024px){
+    #info{
+        position: absolute;
+        
+    }
+    
+    
+    .informacion h2 {
+        font-size: 28px;
+        
+    }
+    .informacion h3 {
+        font-size: 28px;
+        
+    }
+    
+    .informacion h4 {
+        font-size: 28px;
+        
+    }
+    
+    .informacion P{
+        font-size: 26px;
+         width: 1000px;
+    }
+    
+    .mapa a{
+        font-size: 20px;
+        width: 300px;
+        
+    }
+    .mapa a:hover{
+    cursor: pointer;
+    color: rgba(245, 190, 39, 0.86);
+    
+    }
+    
+
+        
+    .oracion a{
+        font-size: 20px;
+        width: 300px;
+        
+    }
+    #oracion a:hover{
+    cursor: pointer;
+    color: rgba(245, 190, 39, 0.86);
+    }
+    
+    
+    
+    .derechos h5{
+        font-size: 10px;
+        width: 1000px;
+        letter-spacing: 18px;
+        transform: translateY(50%);
+        
+    }
+    .derechos p5{
+        font-size: 12px;
+        
+        
+    }
+    .direccion {
+        font-size: 14px;
+    }
+    
+}
+
+    
+    
+}
