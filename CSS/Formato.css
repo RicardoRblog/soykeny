@@ -40,10 +40,13 @@
     color: black;
     font-size: 10px;
     letter-spacing: 3px;
+    text-align: center;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
     margin-top: -15%;
+    
     
 }
 
@@ -60,69 +63,40 @@
     
 }
 
-
-
-.icon-gps {
+.mapa a{
     position: absolute;
+    color: rgba(152, 152, 152, 0.78);
+    font-size: 8px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
     margin-top: 8%;
-    font-size: 30px;
+    margin-left: 30%;
+    
+    
+}
+
+.oracion a{
+    position: absolute;
+    color: rgba(152, 152, 152, 0.78);
+    font-size: 8px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
     top: 50%;
     left: 50%;
-    transform: translateX(230%) translateY(-50%);
-    text-align: center;
-    text-decoration: none;
-    color: #888585;
-    
-    
-}
-
-#mapa h1{
-    position: absolute;
-    color: black;
-    margin-top: 14%;
-    font-size: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(120%) translateY(-50%);
-    text-align: center;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: 8%;
+    margin-left: -30%;
     
     
     
 }
 
-#mapa h1:hover{
-    cursor: pointer;
-    font-weight: bold;
-    
-}
 
-
-
-
-.icon-oracion {
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    margin-top: 5%;
-    font-size: 27px;
-    text-decoration: none;
-    color: #888585;
-    justify-content: center;
-}
-
-#oracion h2{
-    position: absolute;
-    color: black;
-    margin-top: -25%;
-    left: 11%;
-    font-size: 10px;
-    
-}
-#oracion h2:hover{
-    cursor: pointer;
-    font-weight: bold;
-    
-}
 
 .derechos{
     position: absolute;
@@ -168,6 +142,7 @@
 
 
 
+
 @media (min-width:600px){
     
     #info{
@@ -195,23 +170,31 @@
         width: 500px;
     }
     
-    #mapa h1{
+    .mapa a{
         font-size: 14px;
+        width: 300px;
         
+    }
+    .mapa a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    
     }
     
-    #oracion h2{
-        font-size: 14px;
+
+        
+    .oracion a{
+        font-size: 16px;
+        width: 300px;
+        
+    }
+    #oracion a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    
     }
     
-    .icon-gps{
-        font-size: 44px;
-        
-    }
-    .icon-oracion{
-        font-size: 48px;
-        
-    }
+    
     
     .derechos h5{
         font-size: 8px;
@@ -228,14 +211,4 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
 
