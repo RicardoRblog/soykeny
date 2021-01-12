@@ -95,12 +95,12 @@
     
 .contenedor-banner p1{
     position: absolute;
-    width: 80%;
+    width: 85%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
     margin-top: -10%;
-    font-size: 18px;
+    font-size: 16px;
     
     
     
@@ -108,7 +108,7 @@
 
 .contenedor-banner c{
    
-    letter-spacing: 14px;
+    letter-spacing: 12px;
     font-size: 10px;
         
     }

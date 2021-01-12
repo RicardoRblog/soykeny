@@ -71,3 +71,28 @@
     
     
 }
+
+
+
+@media (min-width:1024px){
+    .contenedor-gsl p{
+        
+        font-size: 17px;
+        width: 900px;
+        margin-top: -16%;
+    }
+    
+    .contenedor-gsl h3{
+        font-size: 18px;
+        
+    }
+    
+    .contenedor-gsl p3{
+        font-size: 10px;
+        letter-spacing: 14px;
+        width: 900px;
+        
+    }
+    
+    
+}
