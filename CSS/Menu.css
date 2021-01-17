@@ -30,13 +30,13 @@ header label{
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color:  rgba(245, 190, 39, 0.86);
     
     
 }
 
 .menu a:hover {
-    color:#FAD437;
+    color:#fdfdfb;
     font-weight: bold;
     
 
@@ -102,7 +102,7 @@ header label{
         justify-content: center;
         width: 90%;
         font-size: 20px;
-        
+       
     }
     
     
