@@ -65,7 +65,7 @@
 
 .mapa a{
     position: absolute;
-    color: rgba(15, 14, 14, 0.78);
+    color: rgba(245, 190, 39, 0.86);
     font-size: 7px;
     text-decoration: none;
     width: 120px;
@@ -75,14 +75,14 @@
     transform: translateX(-50%)translateY(-50%);
     margin-top: 8%;
     margin-left: 30%;
-    background: rgba(93, 93, 93, 0.4);
+    background: black;
     border-radius: 50px;
     
 }
 
 .oracion a{
     position: absolute;
-    color: rgba(15, 14, 14, 0.78);
+    color: rgba(245, 190, 39, 0.86);
     font-size: 7px;
     text-decoration: none;
     width: 120px;
@@ -92,7 +92,7 @@
     transform: translateX(-50%)translateY(-50%);
     margin-top: 8%;
     margin-left: -30%;
-    background: rgba(93, 93, 93, 0.4);
+    background: black;
     border-radius: 50px;
     
     
@@ -185,7 +185,7 @@
     .mapa a:hover{
     cursor: pointer;
     color: rgba(245, 190, 39, 0.86);
-    background: #262424;
+    background: #777777;
     }
     
 
@@ -198,7 +198,7 @@
     .oracion a:hover{
     cursor: pointer;
     color: rgba(245, 190, 39, 0.86);
-    background: #262424;    
+    background: #777777;    
     }
     
     
@@ -257,7 +257,7 @@
     .mapa a:hover{
     cursor: pointer;
     color: rgba(245, 190, 39, 0.86);
-    background: #262424;
+    background: #777777;
     }
     
 
@@ -270,7 +270,7 @@
     .oracion a:hover{
     cursor: pointer;
     color: rgba(245, 190, 39, 0.86);
-    background: #262424;
+    background: #777777;
     }
     
     
