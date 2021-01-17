@@ -1,0 +1,83 @@
+#generaxion {
+    margin-top: 0;
+    position: relative;
+    justify-content: center;
+    
+}
+
+
+#generaxion p{
+    position: absolute;
+    width: 30%;
+    height: 80px;
+    display: flex;
+    margin: 0 5px;
+    text-align: center;
+    text-align: right;
+    
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translateX(55%)translateY(-50%);
+    margin-top: 18%;
+    font-size: 8px;
+   
+    
+}
+
+#generaxion .viernes{
+    
+    top:50%;
+    left: 50%;
+    margin-top: -70%;
+    transform: translateX(-4%) translateY(-5%);
+    
+}
+
+#generaxion .deparceros{
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -70%;
+    transform: translateX(-4%) translateY(-12%);
+    
+}
+
+#generaxion .DE7PM {
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -70%;
+    transform: translateX(0%) translateY(-20%);
+   
+}
+
+#generaxion .PARCEROS {
+     margin-top: -92.5%;
+    
+}
+
+
+
+
+@media (min-width:600px){
+    #generaxion p{
+        
+        font-size: 13px;
+        
+    }
+        
+    
+}
+
+
+@media (min-width:1024px){
+    #generaxion p{
+        font-size: 22px;
+        margin-top: 16%;
+        
+        
+    }
+        
+    
+}

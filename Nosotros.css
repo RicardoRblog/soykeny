@@ -1,0 +1,74 @@
+#Nosotros {
+    position: relative;
+   
+}
+
+#iglesia {
+    position: absolute;
+    margin-top: 0px;
+    top: 0%;
+    margin-left: 8%;
+    display: none;
+    
+}
+
+#horarios .img-hora{
+    position: absolute;
+    margin-top:0px; 
+    top: 2px;
+    
+}
+
+
+#horarios .img-dia {
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    
+}
+
+
+#Nosotros .contenedor-nosotros h3{
+    position: absolute;
+    width: 68%;
+    text-align: left;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-33%)translateY(-60%);
+    
+    margin-top: 28%;
+    font-size: 8px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:600px){
+    #Nosotros .contenedor-nosotros h3{
+        
+        font-size: 13px;
+        
+        
+    }
+    
+}
+
+@media (min-width:1024px){
+    #Nosotros .contenedor-nosotros h3{
+        
+        font-size: 28px;
+        
+        
+    }
+    
+    
+   
+}

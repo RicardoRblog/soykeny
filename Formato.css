@@ -1,0 +1,298 @@
+#info {
+    margin-top: 0;
+    position: relative;
+    justify-content: center;
+    
+
+}    
+    
+.informacion h2{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: -30%;
+    
+}
+.informacion h3{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: -27%;
+    
+}
+
+
+.informacion n{
+    color: rgba(8, 208, 208, 0.85);
+    
+}
+
+.informacion h4{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: -15%;
+    
+    
+}
+
+.informacion P{
+    position: absolute;
+    color: black;
+    font-size: 9px;
+    width: 300px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: -7%;
+    
+}
+
+.mapa a{
+    position: absolute;
+    color: rgba(245, 190, 39, 0.86);
+    font-size: 7px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: 8%;
+    margin-left: 30%;
+    background: black;
+    border-radius: 50px;
+    
+}
+
+.oracion a{
+    position: absolute;
+    color: rgba(245, 190, 39, 0.86);
+    font-size: 7px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    margin-top: 8%;
+    margin-left: -30%;
+    background: black;
+    border-radius: 50px;
+    
+    
+    
+}
+
+
+
+.derechos{
+    position: relative;
+    color: black;
+    text-align: center;
+    
+    justify-content: center;
+    margin-top: -10%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    
+}
+
+.derechos h5{
+    position: absolute;
+    font-size: 5px;
+    width: 90%;
+    letter-spacing: 8px;
+    text-align: center;
+    left: 50%;
+    transform: translateY(-35%) translateX(-50%);
+}
+
+.derechos p5{
+    position: absolute;
+    font-size: 6px;
+    width: 90%;
+    letter-spacing: 2px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%)translateY(50%);
+}
+
+.direccion{
+    position: absolute;
+    color: white;
+    margin-top: 7%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    font-size: 6px;
+    letter-spacing: 2px;
+    width: 90%;
+    text-align: center;
+    
+    
+}
+
+
+
+
+@media (min-width:600px){
+    
+    #info{
+        position: absolute;
+        
+    }
+    
+    
+    .informacion h2 {
+        font-size: 18px;
+        
+    }
+    .informacion h3 {
+        font-size: 18px;
+        
+    }
+    
+    .informacion h4 {
+        font-size: 18px;
+        
+    }
+    
+    .informacion P{
+        font-size: 16px;
+        width: 500px;
+    }
+    
+    .mapa a{
+        font-size: 14px;
+        width: 30%
+        
+    }
+    .mapa a:hover{
+    cursor: pointer;
+    color: rgba(245, 190, 39, 0.86);
+    background: #777777;
+    }
+    
+
+        
+    .oracion a{
+        font-size: 14px;
+        width: 35%;
+        
+    }
+    .oracion a:hover{
+    cursor: pointer;
+    color: rgba(245, 190, 39, 0.86);
+    background: #777777;    
+    }
+    
+    
+    
+    .derechos h5{
+        font-size: 9px;
+               
+        
+    }
+    .derechos p5{
+        font-size: 9px;
+        
+    }
+    .direccion {
+        
+        font-size: 10px;
+        
+    }
+    
+}
+
+
+
+
+@media (min-width:1024px){
+    #info{
+        position: absolute;
+        
+    }
+    
+    
+    .informacion h2 {
+        font-size: 28px;
+        
+    }
+    .informacion h3 {
+        font-size: 28px;
+        
+    }
+    
+    .informacion h4 {
+        font-size: 28px;
+        
+    }
+    
+    .informacion P{
+        font-size: 26px;
+         width: 1000px;
+    }
+    
+    .mapa a{
+        font-size: 20px;
+        width: 300px;
+        
+    }
+    .mapa a:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+    }
+    
+
+        
+    .oracion a{
+        font-size: 20px;
+        width: 300px;
+        
+    }
+    .oracion a:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+    }
+    
+    
+    
+    .derechos h5{
+        font-size: 18px;
+                
+    }
+    .derechos p5{
+        
+        font-size: 14px;
+        transform: translateX(-50%) translateY(100%);
+        
+        
+    }
+    .direccion {
+        font-size: 16px;
+        letter-spacing: 12px;
+    }
+    
+}
+
+    
+    
+
