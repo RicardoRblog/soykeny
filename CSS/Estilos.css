@@ -109,8 +109,8 @@ img {
     
     header{
         position: fixed;
-        background: rgba(25,25,25,.9);
-        height: 35px;
+        background: rgba(25,25,25,2);
+        height: 50px;
     }
     
     .sociales {
@@ -126,7 +126,7 @@ img {
     width: auto;
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
            
     }
     
@@ -150,7 +150,7 @@ img {
     width: auto;
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
            
     }
     
