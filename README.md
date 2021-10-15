@@ -1,2 +1,2 @@
 # soykeny
-esta es una pagina de nuestra iglesia
+este es mi portafolio
